@@ -20,8 +20,7 @@
           <span id="intro"><h1>Hi, I am Om Dhiraj.</h1></span>
           <span id="designation"><p>A full stack web developer!</p></span>
           <a href="#projects">
-          <button id="btn-pf" >
-            <i class="fas fa-project-diagram"></i> Portfolio
+          <button id="btn-pf" >Portfolio  <i class="fas fa-arrow-down"></i>
           </button>
           </a>
         </div>
@@ -32,14 +31,15 @@
 
     <nav  id="navbar">
       <ul>
+        <li><a href="#welcome-section">Home</a></li>
         <li><a href="#projects">Portfolio</a></li>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#contact-box">Contact</a></li>
       </ul>
     </nav>
 
     <section id="projects">
-      <header id="project-head">
+      <header class="heads">
       <h3>Projects</h3>
       </header>
       <div id="project-box">
@@ -81,8 +81,45 @@
     </div>
     </section>
 
+    <div id="about-me">
+      <img id="profile-pic" src="https://pbs.twimg.com/profile_images/1122401348874407936/JIv4p9YU_400x400.jpg" alt="portrait pic smiling">
+      <header class="heads">
+        <h3>About Me</h3>
+      </header>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+        It has survived not only five centuries, but also the leap into electronic typesetting, 
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+        like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <div id="contact-box">
+      <header class="heads">
+        <h3>Contact</h3>
+      </header>
+      <div id="contact-form">
+        <form action="#">
+          <input type="text"  placeholder="Your Name" id="name" required>
+          <input type="email" placeholder="Email ID" id="email" required>
+          <textarea rows="10" cols="50" id="message" placeholder="Your Message goes here..." required></textarea>
+                
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
     <footer id="footbar">
-      <a href="https://github.com/odgripginger" id="profile-link" target="_blank">Github</a>
+      <div id="foot-links">
+        <a href="https://github.com/odgripginger" class="social-link" id="profile-link" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-link" target="_blank"><i class="fab fa-codepen"></i></a>
+        <a href="#" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/omdhiraj55" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <p> &copy; 2019. All Rights Reserved.</p>
     </footer>
 
     <script src="main.js"></script>
