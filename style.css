@@ -74,7 +74,7 @@
     color: white;
     margin-top: 5vh;
     transition-duration: 0.5s;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 3vh;
     cursor: pointer;
     overflow: hidden;
